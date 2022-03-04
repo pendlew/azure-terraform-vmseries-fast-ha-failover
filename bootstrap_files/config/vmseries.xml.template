@@ -128,6 +128,48 @@
                 </dhcp-client>
               </layer3>
             </entry>
+            <entry name="ethernet1/4">
+              <layer3>
+                <ndp-proxy>
+                  <enabled>no</enabled>
+                </ndp-proxy>
+                <sdwan-link-settings>
+                  <upstream-nat>
+                    <enable>no</enable>
+                    <static-ip/>
+                  </upstream-nat>
+                  <enable>no</enable>
+                </sdwan-link-settings>
+                <interface-management-profile>azure-health-probe</interface-management-profile>
+                <lldp>
+                  <enable>no</enable>
+                </lldp>
+                <dhcp-client>
+                  <create-default-route>no</create-default-route>
+                </dhcp-client>
+              </layer3>
+            </entry>
+            <entry name="ethernet1/5">
+              <layer3>
+                <ndp-proxy>
+                  <enabled>no</enabled>
+                </ndp-proxy>
+                <sdwan-link-settings>
+                  <upstream-nat>
+                    <enable>no</enable>
+                    <static-ip/>
+                  </upstream-nat>
+                  <enable>no</enable>
+                </sdwan-link-settings>
+                <interface-management-profile>azure-health-probe</interface-management-profile>
+                <lldp>
+                  <enable>no</enable>
+                </lldp>
+                <dhcp-client>
+                  <create-default-route>no</create-default-route>
+                </dhcp-client>
+              </layer3>
+            </entry>            
             <entry name="ethernet1/3">
               <ha/>
             </entry>
